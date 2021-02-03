@@ -3,13 +3,18 @@
     padding: 0;
     font-family: 'Source Code Pro';
 }
+.s1{
+    height: 1500px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
 .active{
     font-weight: bold;
 }
 body{
     background-color: #FFE715;
-    width: 100%;
-    overflow-x: hidden;
 }
 nav{
     width: 100%;
@@ -45,13 +50,47 @@ ul li a{
 }
 .image{
     position: relative;
-    left: 43%;
+    left: 41%;
 }
 .song .image img{
     width: 250px;
     height: 250px;
 }
 .title{
-    width: 300px;
-    float: right;
+    text-align: center;
+}
+.title p{
+    font-size: 24px;
+}
+.title img{
+    position: relative;
+    top: 9px;
+    margin: 0 20px;
+}
+.title .img1{
+    transform: rotate(90deg);
+}
+.title .img2{
+    transform: rotate(-90deg);
+}
+
+
+
+
+.profile img{
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+}
+.kiri,.kanan{
+    flex: 50%;
+    margin: 0 20px;
+}
+.kiri{
+    text-align: right;
 }
